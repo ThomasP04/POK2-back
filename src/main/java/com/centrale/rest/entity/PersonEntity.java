@@ -18,8 +18,5 @@ public class PersonEntity {
     private Long id;
 
     private String name;
-
-    @ManyToOne()
-    @JoinColumn(name="colocationId", nullable=false)
-    private ColocationEntity colocation;
+    private String password;
 }
